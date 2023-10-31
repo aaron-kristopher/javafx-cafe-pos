@@ -1,10 +1,4 @@
-.root {
-    /* --green: #1E3932;
-    --dark-green: #172c26;
-    --orange: #D69A2D;
-    --dark-orange: #be8a29;
-    --maroon: #76232F;
-    ---dark-maroon: #5e1d27; */
+.root { 
     -fx-font-size: 14px;
     -fx-font-family: Poppins, sans-serif;
 }
