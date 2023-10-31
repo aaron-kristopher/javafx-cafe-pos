@@ -25,10 +25,10 @@
       <Label fx:id="receiptPriceTotal5" alignment="CENTER_RIGHT" layoutX="642.0" layoutY="262.0" prefHeight="35.0" prefWidth="100.0" styleClass="receipt-subtotal-price" text="price" visible="false" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1a1a1a" height="198.0" layoutX="-21.0" layoutY="315.0" stroke="WHITE" strokeType="INSIDE" width="826.0" />
       <Label layoutX="40.0" layoutY="355.0" prefHeight="35.0" prefWidth="400.0" styleClass="receipt-total-label-lg" text="Total" textFill="WHITE" />
-      <Label layoutX="40.0" layoutY="397.0" prefHeight="35.0" prefWidth="400.0" styleClass="receipt-total-label" text="Cash" textFill="WHITE" />
+      <Label layoutX="40.0" layoutY="398.0" prefHeight="35.0" prefWidth="400.0" styleClass="receipt-total-label" text="Cash" textFill="WHITE" />
       <Label layoutX="40.0" layoutY="435.0" prefHeight="35.0" prefWidth="400.0" styleClass="receipt-total-label" text="Change" textFill="WHITE" />
       <Label fx:id="receiptTotal" alignment="CENTER_RIGHT" layoutX="552.0" layoutY="355.0" prefHeight="35.0" prefWidth="200.0" styleClass="receipt-total-price" text="price" textFill="WHITE" />
-      <Label fx:id="cash" alignment="CENTER_RIGHT" layoutX="652.0" layoutY="397.0" prefHeight="35.0" prefWidth="100.0" styleClass="receipt-cash" text="price" textFill="WHITE" />
+      <Label fx:id="cash" alignment="CENTER_RIGHT" layoutX="652.0" layoutY="398.0" prefHeight="35.0" prefWidth="100.0" styleClass="receipt-cash" text="price" textFill="WHITE" />
       <Label fx:id="change" alignment="CENTER_RIGHT" layoutX="652.0" layoutY="435.0" prefHeight="35.0" prefWidth="100.0" styleClass="receipt-change" text="price" textFill="WHITE" />
    </children>
 </AnchorPane>
