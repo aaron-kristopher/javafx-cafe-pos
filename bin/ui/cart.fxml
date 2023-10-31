@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="494.0" prefWidth="791.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e3932" height="503.0" layoutY="-2.0" stroke="TRANSPARENT" strokeType="INSIDE" width="117.0" />
+      <ImageView fx:id="img1" fitHeight="75.0" fitWidth="125.0" layoutX="15.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../../../../../Pictures/Spy%20x%20Family/icon_1224.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img2" fitHeight="75.0" fitWidth="125.0" layoutX="15.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../../../../../Pictures/Spy%20x%20Family/icon_1224.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img3" fitHeight="75.0" fitWidth="125.0" layoutX="15.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../../../../../Pictures/Spy%20x%20Family/icon_1224.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img4" fitHeight="75.0" fitWidth="125.0" layoutX="15.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../../../../../Pictures/Spy%20x%20Family/icon_1224.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img5" fitHeight="75.0" fitWidth="125.0" layoutX="15.0" layoutY="395.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../../../../../Pictures/Spy%20x%20Family/icon_1224.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="foodName1" alignment="BOTTOM_LEFT" graphicTextGap="0.0" layoutX="130.0" layoutY="-1.0" prefHeight="66.0" prefWidth="240.0" styleClass="cart-food-name" text="Food Name" visible="false" wrapText="true" />
+      <Label fx:id="foodName2" alignment="BOTTOM_LEFT" graphicTextGap="0.0" layoutX="130.0" layoutY="94.0" prefHeight="66.0" prefWidth="240.0" styleClass="cart-food-name" text="Food Name" visible="false" wrapText="true" />
+      <Label fx:id="foodName3" alignment="BOTTOM_LEFT" graphicTextGap="0.0" layoutX="130.0" layoutY="189.0" prefHeight="66.0" prefWidth="240.0" styleClass="cart-food-name" text="Food Name" visible="false" wrapText="true" />
+      <Label fx:id="foodName4" alignment="BOTTOM_LEFT" graphicTextGap="0.0" layoutX="130.0" layoutY="284.0" prefHeight="66.0" prefWidth="240.0" styleClass="cart-food-name" text="Food Name" visible="false" wrapText="true" />
+      <Label fx:id="foodName5" alignment="BOTTOM_LEFT" graphicTextGap="0.0" layoutX="130.0" layoutY="379.0" prefHeight="66.0" prefWidth="240.0" styleClass="cart-food-name" text="Food Name" visible="false" wrapText="true" />
+      <Label fx:id="price1" layoutX="130.0" layoutY="59.0" prefHeight="39.0" prefWidth="131.0" styleClass="cart-price" text="price" visible="false" />
+      <Label fx:id="price2" layoutX="130.0" layoutY="154.0" prefHeight="39.0" prefWidth="131.0" styleClass="cart-price" text="price" visible="false" />
+      <Label fx:id="price3" layoutX="130.0" layoutY="249.0" prefHeight="39.0" prefWidth="131.0" styleClass="cart-price" text="price" visible="false" />
+      <Label fx:id="price4" layoutX="130.0" layoutY="344.0" prefHeight="39.0" prefWidth="131.0" styleClass="cart-price" text="price" visible="false" />
+      <Label fx:id="price5" layoutX="130.0" layoutY="439.0" prefHeight="39.0" prefWidth="131.0" styleClass="cart-price" text="price" visible="false" />
+      <Label fx:id="qtyLabel1" alignment="CENTER" layoutX="423.0" layoutY="36.0" prefHeight="50.0" prefWidth="50.0" styleClass="cart-qty-label" text="Qty." textAlignment="CENTER" visible="false" wrapText="true" />
+      <Label fx:id="qtyLabel2" alignment="CENTER" layoutX="423.0" layoutY="129.0" prefHeight="50.0" prefWidth="50.0" styleClass="cart-qty-label" text="Qty." textAlignment="CENTER" visible="false" wrapText="true" />
+      <Label fx:id="qtyLabel3" alignment="CENTER" layoutX="423.0" layoutY="224.0" prefHeight="50.0" prefWidth="50.0" styleClass="cart-qty-label" text="Qty." textAlignment="CENTER" visible="false" wrapText="true" />
+      <Label fx:id="qtyLabel4" alignment="CENTER" layoutX="423.0" layoutY="319.0" prefHeight="50.0" prefWidth="50.0" styleClass="cart-qty-label" text="Qty." textAlignment="CENTER" visible="false" wrapText="true" />
+      <Label fx:id="qtyLabel5" alignment="CENTER" layoutX="423.0" layoutY="414.0" prefHeight="50.0" prefWidth="50.0" styleClass="cart-qty-label" text="Qty." textAlignment="CENTER" visible="false" wrapText="true" />
+      <Label fx:id="productQty1" alignment="CENTER" layoutX="473.0" layoutY="43.0" prefHeight="35.0" prefWidth="35.0" styleClass="cart-qty" text="0" textAlignment="CENTER" visible="false" wrapText="true" />
+      <Label fx:id="productQty2" alignment="CENTER" layoutX="473.0" layoutY="136.0" prefHeight="35.0" prefWidth="35.0" styleClass="cart-qty" text="0" textAlignment="CENTER" visible="false" wrapText="true" />
+      <Label fx:id="productQty3" alignment="CENTER" layoutX="473.0" layoutY="231.0" prefHeight="35.0" prefWidth="35.0" styleClass="cart-qty" text="0" textAlignment="CENTER" visible="false" wrapText="true" />
+      <Label fx:id="productQty4" alignment="CENTER" layoutX="473.0" layoutY="326.0" prefHeight="35.0" prefWidth="35.0" styleClass="cart-qty" text="0" textAlignment="CENTER" visible="false" wrapText="true" />
+      <Label fx:id="productQty5" alignment="CENTER" layoutX="473.0" layoutY="421.0" prefHeight="35.0" prefWidth="35.0" styleClass="cart-qty" text="0" textAlignment="CENTER" visible="false" wrapText="true" />
+      <Label fx:id="totalLabel" alignment="CENTER_RIGHT" layoutX="625.0" layoutY="316.0" prefHeight="58.0" prefWidth="117.0" styleClass="total-label" visible="false" text="Total" wrapText="true" />
+      <Label fx:id="total" alignment="CENTER_RIGHT" layoutX="625.0" layoutY="348.0" prefHeight="58.0" prefWidth="117.0" styleClass="total" visible="false" text="0" wrapText="true" />
+      <Button layoutX="653.0" layoutY="22.0" mnemonicParsing="false" onAction="#backToHome" styleClass="btn-home" text="Go Back" />
+      <Label fx:id="cartEmpty" alignment="CENTER" contentDisplay="CENTER" layoutX="28.0" layoutY="197.0" prefHeight="91.0" prefWidth="791.0" styleClass="cart-empty-label" text="Cart is Empty" textAlignment="CENTER" />
+      <Button fx:id="checkoutBtn" layoutX="625.0" layoutY="416.0" mnemonicParsing="false" onAction="#openReceipt" styleClass="btn-checkout" visible="false" text="Checkout" />
+   </children>
+</AnchorPane>

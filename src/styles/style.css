@@ -1,0 +1,256 @@
+.root {
+    /* --green: #1E3932;
+    --dark-green: #172c26;
+    --orange: #D69A2D;
+    --dark-orange: #be8a29;
+    --maroon: #76232F;
+    ---dark-maroon: #5e1d27; */
+    -fx-font-size: 14px;
+    -fx-font-family: Poppins, sans-serif;
+}
+
+/* ELEMENTS */
+
+Button {
+    -fx-font-size: 12px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #1E3932;
+    -fx-background-color: transparent;
+    -fx-background-radius: 50px;
+    -fx-background-insets: 0 0 0 0, 1;
+    -fx-border-color: #1E3932;
+    -fx-border-width: 2px;
+    -fx-border-radius: 50px;
+    -fx-border-style: solid;
+    -fx-padding: 16px 32px 16px 32px;
+    -fx-cursor: hand;
+    -fx-alignment: center;
+}
+
+Button:hover {
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #1E3932;
+    -fx-border-color: #1E3932;
+}
+
+/* SIDEBAR */
+
+.hero-side-bar {
+    -fx-background-color: #1E3932;
+    -fx-height: 100%;
+}
+
+.hero-text {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 26px;
+    -fx-font-weight: 700;
+    -fx-padding: 32px;
+    -fx-wrap-text: true;
+    -fx-alignment: center;
+}
+
+.btnShowCart {
+    -fx-font-size: 14px;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: transparent;
+    -fx-border-color: #FFFFFF;
+}
+
+.btnShowCart:hover {
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #0b1412;
+    -fx-border-color: #FFFFFF;
+}
+
+/* MAIN CONTENT */
+
+
+.main-content Button {
+    -fx-font-size: 12px;
+    -fx-text-fill: #BE8A29;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0 0 0 0, 1;
+    -fx-padding: 8px 16px 8px 16px;
+    -fx-border-color: #BE8A29;
+}
+
+.main-content Button:hover {
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #BE8A29;
+    -fx-border-color: #BE8A29;
+}
+
+.main-content .btn-reverse-color {
+    -fx-text-fill: #1E3932;
+    -fx-background-color: transparent;
+    -fx-border-color: #1E3932;
+}
+
+.main-content .btn-reverse-color:hover {
+    -fx-text-fill: #BE8A29;
+    -fx-background-color: #1E3932;
+    -fx-border-color: #1E3932;
+}
+
+.main-content Label {
+    -fx-font-size: 16px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #1E3932;
+}
+
+/* SUB PAGES */
+
+.brand-logo {
+    -fx-font-size: 32px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #1E3932;
+}
+
+.food-name {
+    -fx-font-size: 24px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #FFFFFF;
+}
+
+.food-price {
+    -fx-font-size: 16px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #BCC4C2;
+}
+
+.btn-home {
+    -fx-font-size: 12px;
+    -fx-text-fill: #BE8A29;
+    -fx-padding: 10px 24px 10px 24px;
+    -fx-background-color: transparent;
+    -fx-border-color: #BE8A29;
+}
+
+.btn-home:hover {
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #BE8A29;
+    -fx-border-color: #BE8A29;
+}
+
+.btn-increment, .btn-decrement {
+    -fx-font-size: 14px;
+    -fx-padding: 4px 8px 4px 8px;    
+    -fx-text-fill: #BE8A29;
+    -fx-background-color: transparent;
+    -fx-border-color: #BE8A29;
+}
+
+.btn-increment:hover, .btn-decrement:hover {
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #BE8A29;
+    -fx-border-color: #BE8A29;
+}
+
+.count {
+    -fx-min-width: 10px;
+    -fx-font-size: 14px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #1E3932;
+    -fx-background-color: #d8dbd8;
+    -fx-background-radius: 50px;
+    -fx-background-insets: 0 0 0 0, 1;
+    -fx-border-color: #d8d8d8;
+    -fx-border-width: 2px;
+    -fx-border-radius: 50px;
+    -fx-border-style: solid;
+    -fx-padding: 4px 20px;
+    -fx-cursor: hand;
+    -fx-alignment: center;
+}
+
+/* CART */
+
+.cart-food-name {
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #1E3932;
+}
+
+.cart-price {
+    -fx-font-size: 13px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #BE8A29;
+}
+
+.cart-qty-label{
+    -fx-font-size: 16px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #BE8A29;
+}
+
+.cart-qty {
+    -fx-font-size: 14px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #1E3932;
+    -fx-padding: 5px 10px 5px 10px;
+    -fx-background-color: #d8dbd8;
+    -fx-background-radius: 15px;
+    -fx-background-insets: 0 0 0 0, 1;
+}
+
+.total-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #1E3932;
+}
+
+.total {
+    -fx-font-size: 22px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #BE8A29;
+}
+
+.btn-checkout {
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #00754A;
+    -fx-border-color: #00754A;
+}
+
+.cart-empty-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #1E3932;
+}
+
+/* RECEIPT */
+
+
+.receipt-food-name,
+.receipt-price,
+.receipt-subtotal-price,
+.receipt-total-label,
+.receipt-total-label-lg,
+.receipt-total-price,
+.receipt-cash,
+.receipt-change {
+    -fx-font-weight: 700;
+}
+
+.receipt-food-name,
+.receipt-price,
+.receipt-subtotal-price {
+    -fx-text-fill: #1E3932;
+}
+
+.receipt-food-name,
+.receipt-total-label {
+    -fx-font-size: 20px;
+}
+
+.receipt-price, 
+.receipt-subtotal-price,
+.receipt-cash,
+.receipt-change {
+    -fx-font-size: 16px;
+}
+
+.receipt-total-price,
+.receipt-total-label-lg {
+    -fx-font-size: 26px;
+    -fx-font-weight: 700;
+}

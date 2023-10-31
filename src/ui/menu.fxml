@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="494.0" prefWidth="791.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <Pane prefHeight="494.0" prefWidth="200.0" style="-fx-background-color: #1E3932;" styleClass="hero-side-bar">
+         <children>
+            <Label alignment="CENTER" layoutX="2.0" layoutY="66.0" prefHeight="212.0" prefWidth="200.0" styleClass="hero-text" text="Welcome To Artisan Delight" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+            <Button fx:id="btnShowCart" alignment="CENTER" layoutX="29.0" layoutY="302.0" mnemonicParsing="false" onAction="#openCart" styleClass="btnShowCart" text="Open Cart" />
+            <Label fx:id="count" layoutX="64.0" layoutY="32.0" styleClass="count" text="Label" visible="false" />
+         </children>
+      </Pane>
+      <Pane id="mainContent" layoutX="200.0" prefHeight="494.0" prefWidth="591.0" styleClass="main-content">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#be8a29" height="134.0" layoutY="360.0" stroke="TRANSPARENT" strokeType="INSIDE" width="591.0" />
+            <ImageView fx:id="waffleImg" fitHeight="100.0" fitWidth="102.0" layoutX="44.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/waffle.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="mochaImg" fitHeight="100.0" fitWidth="102.0" layoutX="313.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/mocha.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="toastImg" fitHeight="100.0" fitWidth="108.0" layoutX="41.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/toast.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="yogurtImg" fitHeight="100.0" fitWidth="105.0" layoutX="311.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/yogurt.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="latteImg" fitHeight="100.0" fitWidth="116.0" layoutX="163.0" layoutY="383.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/latte.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="296.0" layoutY="433.0" mnemonicParsing="false" onAction="#openLattePage" styleClass="btn-reverse-color" text="Order Now" />
+            <Button layoutX="416.0" layoutY="294.0" mnemonicParsing="false" onAction="#openYogurtPage" text="Order Now" />
+            <Button layoutX="146.0" layoutY="294.0" mnemonicParsing="false" onAction="#openToastPage" text="Order Now" />
+            <Button layoutX="416.0" layoutY="126.0" mnemonicParsing="false" onAction="#openMochaPage" text="Order Now" />
+            <Button layoutX="146.0" layoutY="126.0" mnemonicParsing="false" onAction="#openWafflePage" text="Order Now" />
+            <Label alignment="CENTER" layoutX="152.0" layoutY="25.0" prefHeight="93.0" prefWidth="127.0" text="Oreo Bliss Waffle" wrapText="true" />
+            <Label alignment="CENTER" layoutX="422.0" layoutY="25.0" prefHeight="93.0" prefWidth="127.0" text="Caramel Crystal Mocha Latte" wrapText="true" />
+            <Label alignment="CENTER" layoutX="422.0" layoutY="188.0" prefHeight="100.0" prefWidth="127.0" text="Strawberry Dreamsicle Yogurt" wrapText="true" />
+            <Label alignment="CENTER" layoutX="155.0" layoutY="188.0" prefHeight="100.0" prefWidth="127.0" text="Banana Berry Bliss Toast" wrapText="true" />
+            <Label alignment="CENTER" layoutX="289.0" layoutY="364.0" prefHeight="74.0" prefWidth="127.0" text="Inkwell Latte" wrapText="true" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="494.0" prefWidth="791.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <Label alignment="CENTER" layoutY="10.0" prefHeight="35.0" prefWidth="791.0" styleClass="receipt-total-label-lg" text="RECEIPT" textFill="#BE8A29" />
+      <Label fx:id="receiptFoodName1" layoutX="40.0" layoutY="62.0" prefHeight="35.0" prefWidth="400.0" styleClass="receipt-food-name" text="Food name" visible="false" />
+      <Label fx:id="receiptFoodName2" layoutX="40.0" layoutY="112.0" prefHeight="35.0" prefWidth="400.0" styleClass="receipt-food-name" text="Food name" visible="false" />
+      <Label fx:id="receiptFoodName3" layoutX="40.0" layoutY="162.0" prefHeight="35.0" prefWidth="400.0" styleClass="receipt-food-name" text="Food name" visible="false" />
+      <Label fx:id="receiptFoodName4" layoutX="40.0" layoutY="212.0" prefHeight="35.0" prefWidth="400.0" styleClass="receipt-food-name" text="Food name" visible="false" />
+      <Label fx:id="receiptFoodName5" layoutX="40.0" layoutY="262.0" prefHeight="35.0" prefWidth="400.0" styleClass="receipt-food-name" text="Food name" visible="false" />
+      <Label fx:id="receiptPrice1" layoutX="490.0" layoutY="62.0" prefHeight="35.0" prefWidth="130.0" styleClass="receipt-price" text="\@ price" visible="false" />
+      <Label fx:id="receiptPrice2" layoutX="490.0" layoutY="112.0" prefHeight="35.0" prefWidth="130.0" styleClass="receipt-price" text="\@ price" visible="false" />
+      <Label fx:id="receiptPrice3" layoutX="490.0" layoutY="162.0" prefHeight="35.0" prefWidth="130.0" styleClass="receipt-price" text="\@ price" visible="false" />
+      <Label fx:id="receiptPrice4" layoutX="490.0" layoutY="212.0" prefHeight="35.0" prefWidth="130.0" styleClass="receipt-price" text="\@ price" visible="false" />
+      <Label fx:id="receiptPrice5" layoutX="490.0" layoutY="262.0" prefHeight="35.0" prefWidth="130.0" styleClass="receipt-price" text="\@ price" visible="false" />
+      <Label fx:id="receiptPriceTotal1" alignment="CENTER_RIGHT" layoutX="642.0" layoutY="62.0" prefHeight="35.0" prefWidth="100.0" styleClass="receipt-subtotal-price" text="price" visible="false" />
+      <Label fx:id="receiptPriceTotal2" alignment="CENTER_RIGHT" layoutX="642.0" layoutY="112.0" prefHeight="35.0" prefWidth="100.0" styleClass="receipt-subtotal-price" text="price" visible="false" />
+      <Label fx:id="receiptPriceTotal3" alignment="CENTER_RIGHT" layoutX="642.0" layoutY="162.0" prefHeight="35.0" prefWidth="100.0" styleClass="receipt-subtotal-price" text="price" visible="false" />
+      <Label fx:id="receiptPriceTotal4" alignment="CENTER_RIGHT" layoutX="642.0" layoutY="212.0" prefHeight="35.0" prefWidth="100.0" styleClass="receipt-subtotal-price" text="price" visible="false" />
+      <Label fx:id="receiptPriceTotal5" alignment="CENTER_RIGHT" layoutX="642.0" layoutY="262.0" prefHeight="35.0" prefWidth="100.0" styleClass="receipt-subtotal-price" text="price" visible="false" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1a1a1a" height="198.0" layoutX="-21.0" layoutY="315.0" stroke="WHITE" strokeType="INSIDE" width="826.0" />
+      <Label layoutX="40.0" layoutY="355.0" prefHeight="35.0" prefWidth="400.0" styleClass="receipt-total-label-lg" text="Total" textFill="WHITE" />
+      <Label layoutX="40.0" layoutY="398.0" prefHeight="35.0" prefWidth="400.0" styleClass="receipt-total-label" text="Cash" textFill="WHITE" />
+      <Label layoutX="40.0" layoutY="435.0" prefHeight="35.0" prefWidth="400.0" styleClass="receipt-total-label" text="Change" textFill="WHITE" />
+      <Label fx:id="receiptTotal" alignment="CENTER_RIGHT" layoutX="552.0" layoutY="355.0" prefHeight="35.0" prefWidth="200.0" styleClass="receipt-total-price" text="price" textFill="WHITE" />
+      <Label fx:id="cash" alignment="CENTER_RIGHT" layoutX="652.0" layoutY="398.0" prefHeight="35.0" prefWidth="100.0" styleClass="receipt-cash" text="price" textFill="WHITE" />
+      <Label fx:id="change" alignment="CENTER_RIGHT" layoutX="652.0" layoutY="435.0" prefHeight="35.0" prefWidth="100.0" styleClass="receipt-change" text="price" textFill="WHITE" />
+   </children>
+</AnchorPane>
