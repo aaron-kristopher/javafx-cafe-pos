@@ -482,11 +482,4 @@ public class Controller {
         Cart.addToCart(4, quantity);
         backToHome(event);
     }
-
-    // METHODS TO GET CASH AS INPUT
-
-    public void getCash() {
-
-    }
-
 }

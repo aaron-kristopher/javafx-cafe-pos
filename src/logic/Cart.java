@@ -56,16 +56,4 @@ public class Cart {
             }
         }
     }
-
-    public static void cartContents() {
-        getTotal();
-        for (Product product : cart) {
-            System.out.printf("""
-                    Food: %s
-                    Price: %s
-                    Quantity: %s
-                    Total Price: %s \n
-                     """, product.getName(), product.getPrice(), product.getQuantity(), product.getTotalPrice());
-        }
-    }
 }
