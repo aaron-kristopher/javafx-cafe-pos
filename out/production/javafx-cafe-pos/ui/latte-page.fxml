@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="494.0" prefWidth="791.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <Pane layoutY="84.0" prefHeight="326.0" prefWidth="791.0" style="-fx-background-color: #1E3932;">
+         <children>
+            <ImageView fx:id="latteImg" fitHeight="202.0" fitWidth="230.0" layoutX="62.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/latte.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="318.0" layoutY="40.0" prefHeight="17.0" prefWidth="474.0" styleClass="food-name" text="Latte Art Elegance" textFill="WHITE" />
+            <Label layoutX="318.0" layoutY="134.0" prefHeight="103.0" prefWidth="364.0" styleClass="food-description" text="Experience the artistry of coffee in every cup. Our Hot Latte boasts a perfectly steamed, velvety finish adorned with intricate latte art. Sip, savor, and let your taste buds be your canvas." textFill="WHITE" wrapText="true" />
+            <Label layoutX="318.0" layoutY="76.0" prefHeight="17.0" prefWidth="474.0" styleClass="food-price" text="Php 140" textFill="WHITE" />
+         </children>
+      </Pane>
+      <Label layoutX="21.0" layoutY="18.0" styleClass="brand-logo" text="ARTISAN DELIGHT" />
+      <Button layoutX="608.0" layoutY="426.0" mnemonicParsing="false" onAction="#addLatteToCart" styleClass="btn-add-to-cart" text="Add to Cart" />
+      <Button layoutX="647.0" layoutY="23.0" mnemonicParsing="false" onAction="#backToHome" styleClass="btn-home" text="Go Back" />
+      <ImageView fx:id="toastImg" fitHeight="70.0" fitWidth="124.0" layoutX="100.0" layoutY="509.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="yogurtImg" fitHeight="70.0" fitWidth="124.0" layoutX="248.0" layoutY="509.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="mochaImg" fitHeight="70.0" fitWidth="124.0" layoutX="310.0" layoutY="517.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="waffleImg" fitHeight="70.0" fitWidth="124.0" layoutX="361.0" layoutY="509.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="count" alignment="CENTER" layoutX="97.0" layoutY="439.0" styleClass="count" text="1" textAlignment="CENTER" />
+      <Button fx:id="minus" layoutX="60.0" layoutY="439.0" mnemonicParsing="false" onAction="#minusCount" styleClass="btn-decrement" text="-" />
+      <Button fx:id="add" layoutX="157.0" layoutY="439.0" mnemonicParsing="false" onAction="#addCount" styleClass="btn-increment" text="+" />
+   </children>
+</AnchorPane>
