@@ -33,7 +33,11 @@ This project utilizes the following dependency:
 
 To get started with this POS system, follow these steps:
 
-1. Clone the repository to your local machine.
+1. Clone the repository to your local machine using HTTPS
+   
+```bash
+git clone https://github.com/aaron-kristopher/javafx-cafe-pos.git
+```
 
 2. Open the project in your preferred Java development environment (e.g., IntelliJ IDEA, Eclipse).
 
